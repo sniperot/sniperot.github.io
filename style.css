@@ -1,0 +1,162 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#game-container {
+  display: none;
+}
+
+#image-container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#answer-field {
+  margin: 10px;
+}
+
+#submit-btn {
+  margin-bottom: 10px;
+}
+
+#score-container {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+body {
+  background-color: #202225;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+button {
+  background-color: #7289da;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #677bc4;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 300px;
+  max-width: 100%;
+}
+
+.final-screen {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+}
+
+.final-screen-content {
+  background-color: #202225;
+  color: #fff;
+  width: 80%;
+  max-width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #677bc4;
+}
+
+.final-screen h2 {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.final-screen p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.final-score-green {
+  color: limegreen;
+}
+
+.final-score-red {
+  color: red;
+}
+.timer-box {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #7289da;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  z-index: 1;
+}
+
+.img-count-btn {
+  margin-left: 10px;
+}
+
+#image-count-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
