@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Valorant GeoGuessr</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Valorant GeoGuessr</h1>
+      <div id="image-count-container">
+   <!--     <span>How many images?</span>
+        <button id="img-count-10" class="img-count-btn">10</button>
+        <button id="img-count-20" class="img-count-btn">20</button>
+        <button id="img-count-30" class="img-count-btn">30</button>
+      </div> -->
+      <button id="start-btn">Start</button>
+      <div id="game-container">
+        <div id="image-container"></div>
+        <input type="text" id="answer-field" placeholder="Enter map name">
+        <button id="submit-btn">Submit</button>
+        <div id="score-container"></div>
+        <!-- Add this line for the timer container -->
+	<div id="timer-container" class="timer-box"></div>
+      <!-- Add this line for the reset button -->
+      <button id="reset-btn" style="display: none;">Reset</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
